@@ -1,7 +1,18 @@
 # 準備
-1. ダウンロードして `./cp_zsh.zsh`を実行する。
-2. `.zshrc` をホームディレクトリにコピーする。 (すでに設定がいろいろある場合は自分で調整して追加)
-3. `source ./zshrc` を実行する。
+1. ダウンロードして解凍 or cloneする。
+2. ダウンロードしたフォルダに入って、コマンドをを実行する。
+```
+./cp_zsh.zsh
+```
+3. `.zshrc` をホームディレクトリにコピーする。 (すでに設定がいろいろある場合はコマンドを使わずに自分で調整して追加)
+```
+cp ./zshrc ~/.zshrc
+```
+  
+4. `source ./zshrc` を実行する。
+```
+source ./zshrc
+```
 
 
 # 使い方
@@ -28,9 +39,20 @@ OCT PERMISSIONS LNK OWNER     GROUP        SIZE UPDATED_AT       NAME
 
 ## check IP
 
-`check-local-ip`  : ローカルIP(v4)確認 
-`check-public-ip` : パブリックIP(v4)確認
-`check-network`   : 接続状況/ローカルIP/パブリックIPを確認
+### ローカルIP(v4)確認 
+```
+check-local-ip
+```
+
+### パブリックIP(v4)確認
+```
+check-public-ip
+```
+
+### 接続状況/ローカルIP/パブリックIPを確認
+```
+check-network
+```
 
 
 ## 補完機能
