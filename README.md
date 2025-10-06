@@ -6,12 +6,12 @@
 ```
 3. `.zshrc` をホームディレクトリにコピーする。 (すでに設定がいろいろある場合はコマンドを使わずに自分で調整して追加)
 ```
-cp ./zshrc ~/.zshrc
+cp ./.zshrc ~/
 ```
   
-4. `source ./zshrc` を実行する。
+4. `source ~/.zshrc` を実行する。
 ```
-source ./zshrc
+source ~/.zshrc
 ```
 
 
